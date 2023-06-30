@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+    <title>Видеоигры</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Видеоигры">
+    <meta name="keywords" content="Видеоигра">
+    <meta name="author" content="Потонов Георгий">
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Компьютерные игры</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a  href = "index.html" >Главная</a></li>
+            <li><a  href = "#" >Контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <ul id="list">
+                <li>1</li>
+            </ul>
+
+            <input id='textList' type="text"> <br>
+            <input name="mode" type="radio" value="begin" checked> Вставить в начало <br>
+            <input name="mode" type="radio" value="end"> Вставить в конец <br>
+            <input id="buttonList" type="button" value="Добавить в список">
+
+            <p id="par">
+                <b>Видеоигра</b> - (англ. <i>video game</i>) — игра с использованием изображений, сгенерированных электронной аппаратурой. 
+                Другими словами, видеоигра является электронной игрой, которая базируется на взаимодействии человека и устройства посредством 
+                визуального интерфейса, например телевизора, монитора компьютера или телефона. 
+            </p>
+            <input id="buttonP" type="button" value="Клонировать"> <br>
+
+            <img id="image" src="img/swing.jpg" alt="img" style="height: 300px;"> <br>
+            <input id="buttonReduce" type="button" value="Уменьшить изображение">
+            <input id="buttonDelete" type="button" value="Удалить изображение"> <br>
+
+            <input id="anim" type="button" value="Анимация"> <br>
+            <div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div> <br><br><br><br><br><br>
+
+
+            <table id="myTable">
+                <tr>
+                    <th>Год</th>
+                    <th>Название</th>
+                    <th>Платформы</th>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>Little Inferno</td>
+                    <td>Wii U, Microsoft Windows, iOS, OS X, Linux, Android, Nintendo Switch</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>Human Resource Machine</td>
+                    <td>Wii U, Microsoft Windows, iOS, OS X, Linux, Android, Nintendo Switch</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>7 Billion Humans</td>
+                    <td>Microsoft Windows, Linux, iOS, macOS, Nintendo Switch</td>
+                </tr>
+            </table>
+            <div>
+                Фильтрация по первому столбцу: 
+                <input id="myInput" type="text" onkeyup="myFunction()">
+            </div>
+            
+
+        </article>
+        <aside>
+            <h2>Навигация</h2>
+            <ul> 
+                <li><a href="index.html">Лаб. 1 </a></li>
+                <li><a href="lab2.html"> Лаб. 2 </a></li>
+                <li><a href="lab4.html"> Лаб. 4 </a></li>
+                <li><a href="lab5.html"> Лаб. 5 </a></li>
+                <li><a href="lab6.html"> Лаб. 6 </a></li>
+                <li><a href="lab8.html"> Лаб. 8 </a></li>
+                <li><a href="lab9.html"> Лаб. 9 </a></li>
+                <li><a href="lab10.html"> Лаб. 10 </a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer> 
+        <p> Copyright &copy; 2021. Потонов Георгий </p>
+    </footer>
+    <script src="libs/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/lab9.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "ru">
+<head>
+    <title>Видеоигры</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Видеоигры">
+    <meta name="keywords" content="Видеоигра">
+    <meta name="author" content="Потонов Георгий">
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Компьютерные игры</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a  href = "index.html" >Главная</a></li>
+            <li><a  href = "#" >Контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <div id="time-node"></div>
+            <h2 id="header">Анкета</h2>
+            
+            <form name='form1' id='form' method="GET" onsubmit="return validateForm()">
+                Имя:<span class="red">*</span> <input name="firstName" type="text" required> <br>
+                Фамилия:<span class="red">*</span> <input name="lastName" type="text" required> <br>
+                <fieldset>
+                    Пол:<span class="red">*</span> <br>
+                    <input name="gender" type="radio" value="man" checked required> мужской <br>
+                    <input name="gender" type="radio" value="woman"> женский <br>
+                </fieldset>
+                Дата рождения:<span class="red">*</span> <input id='birthday' name="birthday" type="date" required> <br>
+                <span id="spanCourse"> Курс обучения:<span class="red">*</span> <input name="course" type="number" min="1" max="5" value="1"> <br></span>
+                Форма обучения:<span class="red">*</span>
+                <select id="select" name="education_form" size="1">
+                    <option value="full-time" selected>очная</option>
+                    <option value="part-time">заочная</option>
+                </select>
+                <h3>Вопросы по теме</h3> <br>
+                Приведите пример жанра компьютерных игр <input name="genre" type="text"> <br>
+                <fieldset>
+                    Что не является жанром игр?<span class="red">*</span> <br>
+                    <input name="question1" type="radio" value="strategy" checked required> стратегия <br>
+                    <input name="question1" type="radio" value="comedy"> комедия <br>
+                    <input name="question1" type="radio" value="puzzle"> головоломка <br>
+                    <input name="question1" type="radio" value="simulator"> симулятор <br>
+                </fieldset>
+                <fieldset>
+                    Какие игры разработала Tomorrow Corporation?<span class="red">*</span> <br>
+                    <input name="question2" class="checkbox" type="checkbox" value="littleInferno"> Little Inferno <br>
+                    <input name="question2" class="checkbox" type="checkbox" value="humanResourceMachine"> Human Resource Machine <br>
+                    <input name="question2" class="checkbox" type="checkbox" value="sevenBillionHumans"> 7 Billion Humans <br>
+                    <input name="question2" class="checkbox" type="checkbox" value="worldOfGoo" required> World of Goo <br>
+                </fieldset>
+                Комментарий: <input class='comment' id="checkboxCom" type="checkbox" checked> <br>
+                <textarea id="textarea" name="comment" cols="30" rows="6" placeholder="Пара слов"></textarea> <br>
+                Файл: <input name="file" type="file"> <br>
+                <input type="reset" value="Сброс"> <input type="submit" value="Отправить">
+            </form>
+        </article>
+        <aside>
+            <h2>Навигация</h2>
+            <ul> 
+                <li><a href="index.html">Лаб. 1 </a></li>
+                <li><a href="lab2.html"> Лаб. 2 </a></li>
+                <li><a href="lab4.html"> Лаб. 4 </a></li>
+                <li><a href="lab5.html"> Лаб. 5 </a></li>
+                <li><a href="lab6.html"> Лаб. 6 </a></li>
+                <li><a href="lab8.html"> Лаб. 8 </a></li>
+                <li><a href="lab9.html"> Лаб. 9 </a></li>
+                <li><a href="lab10.html"> Лаб. 10 </a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer> 
+        <p> Copyright &copy; 2021. Потонов Георгий </p>
+    </footer>
+    <script src="js/lab5.js"></script>             
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Видеоигры</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Видеоигры">
+    <meta name="keywords" content="Видеоигра">
+    <meta name="author" content="Потонов Георгий">
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        article h2:first-child
+        {
+            border: 2px solid black;
+            text-decoration: underline;
+        }
+        article
+        {
+            background: rgb(252, 246, 233);
+        }
+        img.first_image
+        {
+            border: 4px dotted black;
+            opacity: 0.5;
+            float: right;
+        }
+        ul.list2
+        {
+            font-weight: bold;
+            padding: 4px; /* Значение полей */
+        }
+        ul.list2 li
+        {
+            display: inline; /* Отображать как строчный элемент */
+            margin-right: 5px; /* Отступ слева */
+            border: 1px solid #000; /* Рамка вокруг текста */
+            padding: 3px; /* Поля вокруг текста */
+        }
+        article p:nth-last-child(1)
+        {
+            width: 216px;
+            height: 100px;
+            overflow: scroll;
+        }
+        table th
+        {
+            background: rgb(151, 151, 151);
+        }
+        table tr:nth-child(2), table tr:nth-child(4)
+        {
+            background: rgb(192, 192, 192);
+        }
+        main a
+        {
+            text-decoration: none;
+        }
+        main a:hover
+        {
+            text-decoration: underline;
+        }
+        main a:visited
+        {
+            color: rgb(157, 54, 197);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Компьютерные игры</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a  href = "index.html" >Главная</a></li>
+            <li><a  href = "#" >Контакты</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Пример разработчиков</h2>
+            <h3>Tomorrow Corporation</h3>
+            <img class = "first_image" src="img/tomorrow_corporation.jpg" alt="Tomorrow Corporation">
+            <p>
+                Tomorrow Corporation - это небольшая инди-студия, состоящая из трех человек. 
+                Ее основателями являются:
+            </p>
+                <ol>
+                    <li>
+                        Аллан Бломквист
+                        <ul>
+                            <li>Геймдизайнер</li>
+                            <li>Программист</li>
+                        </ul>
+                    </li>
+                    <li>Кайл Габлер</li>
+                    <li value=16 >Кайл Грей</li>
+                </ol>
+            <p>
+                Они, выходцы из Electronic Arts, основали ее в 2010 году.
+                Их первой игрой стала <i>Little Inferno</i>, вышедшая в 2012 году. <br>
+                <img src="img/little_inferno.jpg" alt="Little Inferno">
+            </p>
+            <p>
+                На данный момент Tomorrow Corporation выпустила три игры
+            </p>
+                <ul class="list2">
+                    <li>Little Inferno</li>
+                    <li>Human Resource Machine</li>
+                    <li>7 Billion Humans</li>
+                </ul>
+            <p>
+                Сейчас в разработке находится Welcome to the Information Superhighway
+            </p>
+            <table>
+                <tr>
+                    <th>Год</th>
+                    <th>Название</th>
+                    <th>Платформы</th>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>Little Inferno</td>
+                    <td>Wii U, Microsoft Windows, iOS, OS X, Linux, Android, Nintendo Switch</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>Human Resource Machine</td>
+                    <td>Wii U, Microsoft Windows, iOS, OS X, Linux, Android, Nintendo Switch</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>7 Billion Humans</td>
+                    <td>Microsoft Windows, Linux, iOS, macOS, Nintendo Switch</td>
+                </tr>
+
+            </table>
+            <p>Примечания <br>
+                <a href="http://tomorrowcorporation.com/">Сайт разработчика</a> 
+            </p>
+        </article>
+        <aside>
+            <h2>Навигация</h2>
+            <ul> 
+                <li><a href="index.html">Лаб. 1 </a></li>
+                <li><a href="lab2.html"> Лаб. 2 </a></li>
+                <li><a href="lab4.html"> Лаб. 4 </a></li>
+                <li><a href="lab5.html"> Лаб. 5 </a></li>
+                <li><a href="lab6.html"> Лаб. 6 </a></li>
+                <li><a href="lab8.html"> Лаб. 8 </a></li>
+                <li><a href="lab9.html"> Лаб. 9 </a></li>
+                <li><a href="lab10.html"> Лаб. 10 </a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer> 
+        <p> Copyright &copy; 2021. Потонов Георгий </p>
+    </footer>
+</body>
+</html>

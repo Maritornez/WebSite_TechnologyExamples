@@ -1,5 +1,5 @@
 # WebSite_TechnologyExamples
-This project shows different based frontend technologies (HTML, CSS, JavaScript, Bootstrap, jQuery)
+This project shows different based frontend technologies (HTML, CSS, JavaScript, jQuery, Bootstrap)
 
 ![Screenshot 2024-03-22 at 08-35-28 Видеоигры](https://github.com/Maritornez/WebSite_TechnologyExamples/assets/62441435/d020b8e4-fe8e-4a7a-bf73-337359ec9835)
 
